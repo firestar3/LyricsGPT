@@ -1,0 +1,26 @@
+{
+  "block_size": 256,
+  "vocab_size": 8000,
+  "n_layer": 6,
+  "n_embd": 384,
+  "n_head": 6,
+  "dropout": 0.1,
+  "batch_size": 64,
+  "max_iters": 8000,
+  "eval_interval": 500,
+  "eval_iters": 200,
+  "grad_clip": 1.0,
+  "learning_rate": 0.001,
+  "weight_decay": 0.1,
+  "betas": [
+    0.9,
+    0.99
+  ],
+  "warmup_iters": 200,
+  "lr_decay_iters": 8000,
+  "min_lr": 0.0001,
+  "max_songs": 30000,
+  "patience": 2500,
+  "sample_interval": 1000,
+  "sample_prompt": "I was walking down the street"
+}
